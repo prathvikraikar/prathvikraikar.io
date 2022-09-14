@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRATHVIK RAIKAR
+        JUNIOR DEVELOPER
+    </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+        .slidebar {
+            background-color: rgb(17, 72, 102);
+            width: 444px;
+            height: 70vw;
+        }
+
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .main {
+            /* background-color: cyan; */
+            width: 90vw;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .slidebar nav {
+            padding: 45px;
+
+        }
+
+        .slidebar nav li {
+            list-style: none;
+            font-size: 30px;
+            padding: 33px 0;
+        }
+
+        .info {
+            /* background-color: rgb(198, 238, 22); */
+            height: 77vh;
+            width: 70vw;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+
+
+        }
+
+        .pic img {
+            height: 77vh;
+
+        }
+
+        .info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .helo {
+            font-size: 20px;
+            font-family: 'Orbitron', sans-serif;
+
+        }
+
+        .name {
+            font-size: 20px;
+            font-family: 'Mochiy Pop P One', sans-serif;
+
+        }
+
+        .about {
+            font-size: 20px;
+        }
+
+        .moreabout {
+            font-size: 14px;
+            font-family: 'Orbitron', sans-serif;
+            margin: 32px;
+        }
+
+        .button button {
+            margin-top: 25px;
+            padding: 6px;
+            border-radius: 21px;
+            background-color: cyan;
+            margin: 0px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .button button:hover {
+            background-color: gray;
+        }
+
+        .slidebar nav li a {
+            text-decoration: none;
+            color: rgb(248, 244, 237);
+        }
+
+        .contactform h1 {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+
+        }
+
+        .contactform {
+            text-align: center;
+            width: auto;
+            height: 63vw;
+            padding-top: 65px;
+            border: 4px solid teal;
+            background-color: aquamarine;
+
+        }
+
+        .contactform form div {
+            padding: 19px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #email {
+            font-size: 20px;
+            /* margin-right: auto; */
+            
+        }
+
+        .contactform form div input {
+            width: 198px;
+            border-radius: 23px;
+            margin: auto;
+            padding: 8px;
+
+        }
+
+        #emailHelp {
+            padding: 30px;
+            font-size: 15px;
+            font-family: sans-serif;
+        }
+
+        .mb-3 input {
+            width: 32px;
+
+
+        }
+            #BTN:hover{
+                cursor: pointer;
+                background-color: hotpink;
+                
+            }
+            #BTN{
+                border-radius: 32px;
+                padding: 30px;
+                border: 3px solid black;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="slidebar">
+            PRATHVIK
+            <nav>
+                <ul>
+
+                  
+                    <LI><a href="/prathvik.html">HOME</a></LI>
+                    <LI><a href="/about.html">MY INTRO</LI>
+                    <LI><a href="/certification.html">certifications</a></LI>
+                    <li><a href="/skills.html">SKILLS</a></li>
+                </ul>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+
+            <div class="contactform">
+                <form>
+                    <h1> contact me for any query/doubt</h1>
+                    <div class="mb-3">
+                        <label for="clientmail" class="form-label" id="email">Email address</label>
+                        <input type="email" class="form-control" id="clientmail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientmail" class="form-label" id="email"> ENTER YOUR NAME</label>
+                        <input type="email" class="form-control" id="clientmail" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientphone" class="form-label">mobile</label>
+                        <input type="password" class="form-control" id="clientphone">
+                    </div>
+                    <div class="mb-3" id="form-check">
+                        <input type="checkbox" class="form-check-input" id="isclient">
+                        <label class="form-check-label" for="isclient"> I WANT TO LEARN WITH YOUTUBE</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="BTN">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
